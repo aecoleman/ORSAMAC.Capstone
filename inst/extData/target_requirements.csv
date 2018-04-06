@@ -1,0 +1,19 @@
+type,stationary,area,quantity
+Technical,TRUE,Dense Urban,9
+Troops-in-Contact,TRUE,Dense Urban,8
+High Payoff Target,TRUE,Dense Urban,7
+Technical,FALSE,Dense Urban,7
+Troops-in-Contact,FALSE,Dense Urban,5
+High Payoff Target,FALSE,Dense Urban,8
+Technical,TRUE,Urban Sprawl,8
+Troops-in-Contact,TRUE,Urban Sprawl,7
+High Payoff Target,TRUE,Urban Sprawl,7
+Technical,FALSE,Urban Sprawl,8
+Troops-in-Contact,FALSE,Urban Sprawl,5
+High Payoff Target,FALSE,Urban Sprawl,7
+Technical,TRUE,Unpopulated,5
+Troops-in-Contact,TRUE,Unpopulated,5
+High Payoff Target,TRUE,Unpopulated,4
+Technical,FALSE,Unpopulated,0
+Troops-in-Contact,FALSE,Unpopulated,0
+High Payoff Target,FALSE,Unpopulated,0

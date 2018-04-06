@@ -1,0 +1,601 @@
+tgt.id,mun.id,feasible
+Airfield 1,MGM-168,FALSE
+Airfield 2,MGM-168,FALSE
+Airfield 3,MGM-168,TRUE
+Communications Tower 1,MGM-168,FALSE
+Communications Tower 10,MGM-168,FALSE
+Communications Tower 11,MGM-168,FALSE
+Communications Tower 12,MGM-168,TRUE
+Communications Tower 13,MGM-168,FALSE
+Communications Tower 14,MGM-168,FALSE
+Communications Tower 15,MGM-168,TRUE
+Communications Tower 16,MGM-168,TRUE
+Communications Tower 17,MGM-168,FALSE
+Communications Tower 18,MGM-168,FALSE
+Communications Tower 19,MGM-168,FALSE
+Communications Tower 2,MGM-168,FALSE
+Communications Tower 20,MGM-168,TRUE
+Communications Tower 3,MGM-168,TRUE
+Communications Tower 4,MGM-168,TRUE
+Communications Tower 5,MGM-168,FALSE
+Communications Tower 6,MGM-168,FALSE
+Communications Tower 7,MGM-168,FALSE
+Communications Tower 8,MGM-168,FALSE
+Communications Tower 9,MGM-168,FALSE
+Costal Defense Missile 1,MGM-168,FALSE
+Costal Defense Missile 2,MGM-168,FALSE
+Costal Defense Missile 3,MGM-168,TRUE
+Costal Defense Missile 4,MGM-168,TRUE
+Infantry Company 1,MGM-168,TRUE
+Infantry Company 10,MGM-168,FALSE
+Infantry Company 11,MGM-168,TRUE
+Infantry Company 12,MGM-168,FALSE
+Infantry Company 13,MGM-168,FALSE
+Infantry Company 14,MGM-168,TRUE
+Infantry Company 15,MGM-168,FALSE
+Infantry Company 2,MGM-168,TRUE
+Infantry Company 3,MGM-168,TRUE
+Infantry Company 4,MGM-168,TRUE
+Infantry Company 5,MGM-168,TRUE
+Infantry Company 6,MGM-168,TRUE
+Infantry Company 7,MGM-168,TRUE
+Infantry Company 8,MGM-168,TRUE
+Infantry Company 9,MGM-168,FALSE
+MRBM 1,MGM-168,FALSE
+MRBM 2,MGM-168,FALSE
+MRBM 3,MGM-168,FALSE
+MRBM 4,MGM-168,FALSE
+MRBM 5,MGM-168,FALSE
+Rocket Battery 1,MGM-168,TRUE
+Rocket Battery 10,MGM-168,TRUE
+Rocket Battery 2,MGM-168,TRUE
+Rocket Battery 3,MGM-168,TRUE
+Rocket Battery 4,MGM-168,TRUE
+Rocket Battery 5,MGM-168,TRUE
+Rocket Battery 6,MGM-168,TRUE
+Rocket Battery 7,MGM-168,FALSE
+Rocket Battery 8,MGM-168,FALSE
+Rocket Battery 9,MGM-168,TRUE
+SAM  1,MGM-168,FALSE
+SAM  10,MGM-168,FALSE
+SAM  11,MGM-168,TRUE
+SAM  12,MGM-168,FALSE
+SAM  13,MGM-168,FALSE
+SAM  14,MGM-168,FALSE
+SAM  15,MGM-168,FALSE
+SAM  16,MGM-168,FALSE
+SAM  17,MGM-168,TRUE
+SAM  18,MGM-168,TRUE
+SAM  19,MGM-168,FALSE
+SAM  2,MGM-168,TRUE
+SAM  20,MGM-168,FALSE
+SAM  3,MGM-168,TRUE
+SAM  4,MGM-168,TRUE
+SAM  5,MGM-168,TRUE
+SAM  6,MGM-168,TRUE
+SAM  7,MGM-168,FALSE
+SAM  8,MGM-168,FALSE
+SAM  9,MGM-168,FALSE
+SAM Radar 1,MGM-168,FALSE
+SAM Radar 10,MGM-168,FALSE
+SAM Radar 11,MGM-168,TRUE
+SAM Radar 12,MGM-168,FALSE
+SAM Radar 13,MGM-168,FALSE
+SAM Radar 14,MGM-168,FALSE
+SAM Radar 15,MGM-168,FALSE
+SAM Radar 16,MGM-168,FALSE
+SAM Radar 17,MGM-168,TRUE
+SAM Radar 18,MGM-168,TRUE
+SAM Radar 19,MGM-168,FALSE
+SAM Radar 2,MGM-168,TRUE
+SAM Radar 20,MGM-168,FALSE
+SAM Radar 3,MGM-168,TRUE
+SAM Radar 4,MGM-168,TRUE
+SAM Radar 5,MGM-168,TRUE
+SAM Radar 6,MGM-168,TRUE
+SAM Radar 7,MGM-168,FALSE
+SAM Radar 8,MGM-168,FALSE
+SAM Radar 9,MGM-168,FALSE
+Terrorist Training Camp 1,MGM-168,FALSE
+Terrorist Training Camp 2,MGM-168,FALSE
+Terrorist Training Camp 3,MGM-168,FALSE
+Airfield 1,ZMGM-168B,TRUE
+Airfield 2,ZMGM-168B,FALSE
+Airfield 3,ZMGM-168B,TRUE
+Communications Tower 1,ZMGM-168B,TRUE
+Communications Tower 10,ZMGM-168B,TRUE
+Communications Tower 11,ZMGM-168B,FALSE
+Communications Tower 12,ZMGM-168B,TRUE
+Communications Tower 13,ZMGM-168B,FALSE
+Communications Tower 14,ZMGM-168B,TRUE
+Communications Tower 15,ZMGM-168B,TRUE
+Communications Tower 16,ZMGM-168B,TRUE
+Communications Tower 17,ZMGM-168B,FALSE
+Communications Tower 18,ZMGM-168B,TRUE
+Communications Tower 19,ZMGM-168B,FALSE
+Communications Tower 2,ZMGM-168B,FALSE
+Communications Tower 20,ZMGM-168B,TRUE
+Communications Tower 3,ZMGM-168B,TRUE
+Communications Tower 4,ZMGM-168B,TRUE
+Communications Tower 5,ZMGM-168B,FALSE
+Communications Tower 6,ZMGM-168B,TRUE
+Communications Tower 7,ZMGM-168B,FALSE
+Communications Tower 8,ZMGM-168B,FALSE
+Communications Tower 9,ZMGM-168B,FALSE
+Costal Defense Missile 1,ZMGM-168B,TRUE
+Costal Defense Missile 2,ZMGM-168B,TRUE
+Costal Defense Missile 3,ZMGM-168B,TRUE
+Costal Defense Missile 4,ZMGM-168B,TRUE
+Infantry Company 1,ZMGM-168B,TRUE
+Infantry Company 10,ZMGM-168B,TRUE
+Infantry Company 11,ZMGM-168B,TRUE
+Infantry Company 12,ZMGM-168B,TRUE
+Infantry Company 13,ZMGM-168B,TRUE
+Infantry Company 14,ZMGM-168B,TRUE
+Infantry Company 15,ZMGM-168B,TRUE
+Infantry Company 2,ZMGM-168B,TRUE
+Infantry Company 3,ZMGM-168B,TRUE
+Infantry Company 4,ZMGM-168B,TRUE
+Infantry Company 5,ZMGM-168B,TRUE
+Infantry Company 6,ZMGM-168B,TRUE
+Infantry Company 7,ZMGM-168B,TRUE
+Infantry Company 8,ZMGM-168B,TRUE
+Infantry Company 9,ZMGM-168B,TRUE
+MRBM 1,ZMGM-168B,TRUE
+MRBM 2,ZMGM-168B,TRUE
+MRBM 3,ZMGM-168B,FALSE
+MRBM 4,ZMGM-168B,TRUE
+MRBM 5,ZMGM-168B,FALSE
+Rocket Battery 1,ZMGM-168B,TRUE
+Rocket Battery 10,ZMGM-168B,TRUE
+Rocket Battery 2,ZMGM-168B,TRUE
+Rocket Battery 3,ZMGM-168B,TRUE
+Rocket Battery 4,ZMGM-168B,TRUE
+Rocket Battery 5,ZMGM-168B,TRUE
+Rocket Battery 6,ZMGM-168B,TRUE
+Rocket Battery 7,ZMGM-168B,FALSE
+Rocket Battery 8,ZMGM-168B,TRUE
+Rocket Battery 9,ZMGM-168B,TRUE
+SAM  1,ZMGM-168B,TRUE
+SAM  10,ZMGM-168B,TRUE
+SAM  11,ZMGM-168B,TRUE
+SAM  12,ZMGM-168B,FALSE
+SAM  13,ZMGM-168B,FALSE
+SAM  14,ZMGM-168B,TRUE
+SAM  15,ZMGM-168B,FALSE
+SAM  16,ZMGM-168B,TRUE
+SAM  17,ZMGM-168B,TRUE
+SAM  18,ZMGM-168B,TRUE
+SAM  19,ZMGM-168B,FALSE
+SAM  2,ZMGM-168B,TRUE
+SAM  20,ZMGM-168B,TRUE
+SAM  3,ZMGM-168B,TRUE
+SAM  4,ZMGM-168B,TRUE
+SAM  5,ZMGM-168B,TRUE
+SAM  6,ZMGM-168B,TRUE
+SAM  7,ZMGM-168B,TRUE
+SAM  8,ZMGM-168B,FALSE
+SAM  9,ZMGM-168B,TRUE
+SAM Radar 1,ZMGM-168B,TRUE
+SAM Radar 10,ZMGM-168B,TRUE
+SAM Radar 11,ZMGM-168B,TRUE
+SAM Radar 12,ZMGM-168B,FALSE
+SAM Radar 13,ZMGM-168B,FALSE
+SAM Radar 14,ZMGM-168B,TRUE
+SAM Radar 15,ZMGM-168B,FALSE
+SAM Radar 16,ZMGM-168B,TRUE
+SAM Radar 17,ZMGM-168B,TRUE
+SAM Radar 18,ZMGM-168B,TRUE
+SAM Radar 19,ZMGM-168B,FALSE
+SAM Radar 2,ZMGM-168B,TRUE
+SAM Radar 20,ZMGM-168B,TRUE
+SAM Radar 3,ZMGM-168B,TRUE
+SAM Radar 4,ZMGM-168B,TRUE
+SAM Radar 5,ZMGM-168B,TRUE
+SAM Radar 6,ZMGM-168B,TRUE
+SAM Radar 7,ZMGM-168B,TRUE
+SAM Radar 8,ZMGM-168B,FALSE
+SAM Radar 9,ZMGM-168B,TRUE
+Terrorist Training Camp 1,ZMGM-168B,TRUE
+Terrorist Training Camp 2,ZMGM-168B,TRUE
+Terrorist Training Camp 3,ZMGM-168B,FALSE
+Airfield 1,RGM-84H,FALSE
+Airfield 2,RGM-84H,FALSE
+Airfield 3,RGM-84H,FALSE
+Communications Tower 1,RGM-84H,FALSE
+Communications Tower 10,RGM-84H,FALSE
+Communications Tower 11,RGM-84H,FALSE
+Communications Tower 12,RGM-84H,FALSE
+Communications Tower 13,RGM-84H,FALSE
+Communications Tower 14,RGM-84H,FALSE
+Communications Tower 15,RGM-84H,FALSE
+Communications Tower 16,RGM-84H,FALSE
+Communications Tower 17,RGM-84H,TRUE
+Communications Tower 18,RGM-84H,TRUE
+Communications Tower 19,RGM-84H,TRUE
+Communications Tower 2,RGM-84H,FALSE
+Communications Tower 20,RGM-84H,TRUE
+Communications Tower 3,RGM-84H,FALSE
+Communications Tower 4,RGM-84H,FALSE
+Communications Tower 5,RGM-84H,FALSE
+Communications Tower 6,RGM-84H,FALSE
+Communications Tower 7,RGM-84H,FALSE
+Communications Tower 8,RGM-84H,FALSE
+Communications Tower 9,RGM-84H,FALSE
+Costal Defense Missile 1,RGM-84H,TRUE
+Costal Defense Missile 2,RGM-84H,TRUE
+Costal Defense Missile 3,RGM-84H,TRUE
+Costal Defense Missile 4,RGM-84H,TRUE
+Infantry Company 1,RGM-84H,FALSE
+Infantry Company 10,RGM-84H,FALSE
+Infantry Company 11,RGM-84H,TRUE
+Infantry Company 12,RGM-84H,TRUE
+Infantry Company 13,RGM-84H,TRUE
+Infantry Company 14,RGM-84H,TRUE
+Infantry Company 15,RGM-84H,TRUE
+Infantry Company 2,RGM-84H,FALSE
+Infantry Company 3,RGM-84H,FALSE
+Infantry Company 4,RGM-84H,FALSE
+Infantry Company 5,RGM-84H,FALSE
+Infantry Company 6,RGM-84H,FALSE
+Infantry Company 7,RGM-84H,FALSE
+Infantry Company 8,RGM-84H,FALSE
+Infantry Company 9,RGM-84H,FALSE
+MRBM 1,RGM-84H,FALSE
+MRBM 2,RGM-84H,FALSE
+MRBM 3,RGM-84H,FALSE
+MRBM 4,RGM-84H,FALSE
+MRBM 5,RGM-84H,FALSE
+Rocket Battery 1,RGM-84H,FALSE
+Rocket Battery 10,RGM-84H,FALSE
+Rocket Battery 2,RGM-84H,FALSE
+Rocket Battery 3,RGM-84H,FALSE
+Rocket Battery 4,RGM-84H,FALSE
+Rocket Battery 5,RGM-84H,FALSE
+Rocket Battery 6,RGM-84H,TRUE
+Rocket Battery 7,RGM-84H,TRUE
+Rocket Battery 8,RGM-84H,TRUE
+Rocket Battery 9,RGM-84H,FALSE
+SAM  1,RGM-84H,FALSE
+SAM  10,RGM-84H,FALSE
+SAM  11,RGM-84H,FALSE
+SAM  12,RGM-84H,FALSE
+SAM  13,RGM-84H,FALSE
+SAM  14,RGM-84H,FALSE
+SAM  15,RGM-84H,FALSE
+SAM  16,RGM-84H,FALSE
+SAM  17,RGM-84H,FALSE
+SAM  18,RGM-84H,TRUE
+SAM  19,RGM-84H,TRUE
+SAM  2,RGM-84H,FALSE
+SAM  20,RGM-84H,TRUE
+SAM  3,RGM-84H,FALSE
+SAM  4,RGM-84H,FALSE
+SAM  5,RGM-84H,FALSE
+SAM  6,RGM-84H,FALSE
+SAM  7,RGM-84H,FALSE
+SAM  8,RGM-84H,FALSE
+SAM  9,RGM-84H,FALSE
+SAM Radar 1,RGM-84H,FALSE
+SAM Radar 10,RGM-84H,FALSE
+SAM Radar 11,RGM-84H,FALSE
+SAM Radar 12,RGM-84H,FALSE
+SAM Radar 13,RGM-84H,FALSE
+SAM Radar 14,RGM-84H,FALSE
+SAM Radar 15,RGM-84H,FALSE
+SAM Radar 16,RGM-84H,FALSE
+SAM Radar 17,RGM-84H,FALSE
+SAM Radar 18,RGM-84H,TRUE
+SAM Radar 19,RGM-84H,TRUE
+SAM Radar 2,RGM-84H,FALSE
+SAM Radar 20,RGM-84H,TRUE
+SAM Radar 3,RGM-84H,FALSE
+SAM Radar 4,RGM-84H,FALSE
+SAM Radar 5,RGM-84H,FALSE
+SAM Radar 6,RGM-84H,FALSE
+SAM Radar 7,RGM-84H,FALSE
+SAM Radar 8,RGM-84H,FALSE
+SAM Radar 9,RGM-84H,FALSE
+Terrorist Training Camp 1,RGM-84H,FALSE
+Terrorist Training Camp 2,RGM-84H,FALSE
+Terrorist Training Camp 3,RGM-84H,FALSE
+Airfield 1,RGM-84E,FALSE
+Airfield 2,RGM-84E,FALSE
+Airfield 3,RGM-84E,FALSE
+Communications Tower 1,RGM-84E,FALSE
+Communications Tower 10,RGM-84E,FALSE
+Communications Tower 11,RGM-84E,FALSE
+Communications Tower 12,RGM-84E,FALSE
+Communications Tower 13,RGM-84E,FALSE
+Communications Tower 14,RGM-84E,FALSE
+Communications Tower 15,RGM-84E,FALSE
+Communications Tower 16,RGM-84E,FALSE
+Communications Tower 17,RGM-84E,FALSE
+Communications Tower 18,RGM-84E,FALSE
+Communications Tower 19,RGM-84E,TRUE
+Communications Tower 2,RGM-84E,FALSE
+Communications Tower 20,RGM-84E,TRUE
+Communications Tower 3,RGM-84E,FALSE
+Communications Tower 4,RGM-84E,FALSE
+Communications Tower 5,RGM-84E,FALSE
+Communications Tower 6,RGM-84E,FALSE
+Communications Tower 7,RGM-84E,FALSE
+Communications Tower 8,RGM-84E,FALSE
+Communications Tower 9,RGM-84E,FALSE
+Costal Defense Missile 1,RGM-84E,TRUE
+Costal Defense Missile 2,RGM-84E,TRUE
+Costal Defense Missile 3,RGM-84E,TRUE
+Costal Defense Missile 4,RGM-84E,TRUE
+Infantry Company 1,RGM-84E,FALSE
+Infantry Company 10,RGM-84E,FALSE
+Infantry Company 11,RGM-84E,TRUE
+Infantry Company 12,RGM-84E,TRUE
+Infantry Company 13,RGM-84E,FALSE
+Infantry Company 14,RGM-84E,TRUE
+Infantry Company 15,RGM-84E,TRUE
+Infantry Company 2,RGM-84E,FALSE
+Infantry Company 3,RGM-84E,FALSE
+Infantry Company 4,RGM-84E,FALSE
+Infantry Company 5,RGM-84E,FALSE
+Infantry Company 6,RGM-84E,FALSE
+Infantry Company 7,RGM-84E,FALSE
+Infantry Company 8,RGM-84E,FALSE
+Infantry Company 9,RGM-84E,FALSE
+MRBM 1,RGM-84E,FALSE
+MRBM 2,RGM-84E,FALSE
+MRBM 3,RGM-84E,FALSE
+MRBM 4,RGM-84E,FALSE
+MRBM 5,RGM-84E,FALSE
+Rocket Battery 1,RGM-84E,FALSE
+Rocket Battery 10,RGM-84E,FALSE
+Rocket Battery 2,RGM-84E,FALSE
+Rocket Battery 3,RGM-84E,FALSE
+Rocket Battery 4,RGM-84E,FALSE
+Rocket Battery 5,RGM-84E,FALSE
+Rocket Battery 6,RGM-84E,FALSE
+Rocket Battery 7,RGM-84E,FALSE
+Rocket Battery 8,RGM-84E,FALSE
+Rocket Battery 9,RGM-84E,FALSE
+SAM  1,RGM-84E,FALSE
+SAM  10,RGM-84E,FALSE
+SAM  11,RGM-84E,FALSE
+SAM  12,RGM-84E,FALSE
+SAM  13,RGM-84E,FALSE
+SAM  14,RGM-84E,FALSE
+SAM  15,RGM-84E,FALSE
+SAM  16,RGM-84E,FALSE
+SAM  17,RGM-84E,FALSE
+SAM  18,RGM-84E,TRUE
+SAM  19,RGM-84E,FALSE
+SAM  2,RGM-84E,FALSE
+SAM  20,RGM-84E,FALSE
+SAM  3,RGM-84E,FALSE
+SAM  4,RGM-84E,FALSE
+SAM  5,RGM-84E,FALSE
+SAM  6,RGM-84E,FALSE
+SAM  7,RGM-84E,FALSE
+SAM  8,RGM-84E,FALSE
+SAM  9,RGM-84E,FALSE
+SAM Radar 1,RGM-84E,FALSE
+SAM Radar 10,RGM-84E,FALSE
+SAM Radar 11,RGM-84E,FALSE
+SAM Radar 12,RGM-84E,FALSE
+SAM Radar 13,RGM-84E,FALSE
+SAM Radar 14,RGM-84E,FALSE
+SAM Radar 15,RGM-84E,FALSE
+SAM Radar 16,RGM-84E,FALSE
+SAM Radar 17,RGM-84E,FALSE
+SAM Radar 18,RGM-84E,TRUE
+SAM Radar 19,RGM-84E,FALSE
+SAM Radar 2,RGM-84E,FALSE
+SAM Radar 20,RGM-84E,FALSE
+SAM Radar 3,RGM-84E,FALSE
+SAM Radar 4,RGM-84E,FALSE
+SAM Radar 5,RGM-84E,FALSE
+SAM Radar 6,RGM-84E,FALSE
+SAM Radar 7,RGM-84E,FALSE
+SAM Radar 8,RGM-84E,FALSE
+SAM Radar 9,RGM-84E,FALSE
+Terrorist Training Camp 1,RGM-84E,FALSE
+Terrorist Training Camp 2,RGM-84E,FALSE
+Terrorist Training Camp 3,RGM-84E,FALSE
+Airfield 1,RGM-109C-2,FALSE
+Airfield 2,RGM-109C-2,TRUE
+Airfield 3,RGM-109C-2,TRUE
+Communications Tower 1,RGM-109C-2,FALSE
+Communications Tower 10,RGM-109C-2,TRUE
+Communications Tower 11,RGM-109C-2,TRUE
+Communications Tower 12,RGM-109C-2,TRUE
+Communications Tower 13,RGM-109C-2,TRUE
+Communications Tower 14,RGM-109C-2,TRUE
+Communications Tower 15,RGM-109C-2,TRUE
+Communications Tower 16,RGM-109C-2,TRUE
+Communications Tower 17,RGM-109C-2,TRUE
+Communications Tower 18,RGM-109C-2,TRUE
+Communications Tower 19,RGM-109C-2,TRUE
+Communications Tower 2,RGM-109C-2,FALSE
+Communications Tower 20,RGM-109C-2,TRUE
+Communications Tower 3,RGM-109C-2,FALSE
+Communications Tower 4,RGM-109C-2,FALSE
+Communications Tower 5,RGM-109C-2,TRUE
+Communications Tower 6,RGM-109C-2,TRUE
+Communications Tower 7,RGM-109C-2,TRUE
+Communications Tower 8,RGM-109C-2,TRUE
+Communications Tower 9,RGM-109C-2,TRUE
+Costal Defense Missile 1,RGM-109C-2,TRUE
+Costal Defense Missile 2,RGM-109C-2,TRUE
+Costal Defense Missile 3,RGM-109C-2,TRUE
+Costal Defense Missile 4,RGM-109C-2,TRUE
+Infantry Company 1,RGM-109C-2,FALSE
+Infantry Company 10,RGM-109C-2,TRUE
+Infantry Company 11,RGM-109C-2,TRUE
+Infantry Company 12,RGM-109C-2,TRUE
+Infantry Company 13,RGM-109C-2,TRUE
+Infantry Company 14,RGM-109C-2,TRUE
+Infantry Company 15,RGM-109C-2,TRUE
+Infantry Company 2,RGM-109C-2,FALSE
+Infantry Company 3,RGM-109C-2,FALSE
+Infantry Company 4,RGM-109C-2,FALSE
+Infantry Company 5,RGM-109C-2,FALSE
+Infantry Company 6,RGM-109C-2,TRUE
+Infantry Company 7,RGM-109C-2,TRUE
+Infantry Company 8,RGM-109C-2,TRUE
+Infantry Company 9,RGM-109C-2,TRUE
+MRBM 1,RGM-109C-2,FALSE
+MRBM 2,RGM-109C-2,FALSE
+MRBM 3,RGM-109C-2,FALSE
+MRBM 4,RGM-109C-2,TRUE
+MRBM 5,RGM-109C-2,TRUE
+Rocket Battery 1,RGM-109C-2,FALSE
+Rocket Battery 10,RGM-109C-2,TRUE
+Rocket Battery 2,RGM-109C-2,FALSE
+Rocket Battery 3,RGM-109C-2,FALSE
+Rocket Battery 4,RGM-109C-2,FALSE
+Rocket Battery 5,RGM-109C-2,TRUE
+Rocket Battery 6,RGM-109C-2,TRUE
+Rocket Battery 7,RGM-109C-2,TRUE
+Rocket Battery 8,RGM-109C-2,TRUE
+Rocket Battery 9,RGM-109C-2,FALSE
+SAM  1,RGM-109C-2,FALSE
+SAM  10,RGM-109C-2,TRUE
+SAM  11,RGM-109C-2,TRUE
+SAM  12,RGM-109C-2,TRUE
+SAM  13,RGM-109C-2,TRUE
+SAM  14,RGM-109C-2,TRUE
+SAM  15,RGM-109C-2,TRUE
+SAM  16,RGM-109C-2,TRUE
+SAM  17,RGM-109C-2,TRUE
+SAM  18,RGM-109C-2,TRUE
+SAM  19,RGM-109C-2,TRUE
+SAM  2,RGM-109C-2,FALSE
+SAM  20,RGM-109C-2,TRUE
+SAM  3,RGM-109C-2,FALSE
+SAM  4,RGM-109C-2,FALSE
+SAM  5,RGM-109C-2,FALSE
+SAM  6,RGM-109C-2,FALSE
+SAM  7,RGM-109C-2,TRUE
+SAM  8,RGM-109C-2,TRUE
+SAM  9,RGM-109C-2,TRUE
+SAM Radar 1,RGM-109C-2,FALSE
+SAM Radar 10,RGM-109C-2,TRUE
+SAM Radar 11,RGM-109C-2,TRUE
+SAM Radar 12,RGM-109C-2,TRUE
+SAM Radar 13,RGM-109C-2,TRUE
+SAM Radar 14,RGM-109C-2,TRUE
+SAM Radar 15,RGM-109C-2,TRUE
+SAM Radar 16,RGM-109C-2,TRUE
+SAM Radar 17,RGM-109C-2,TRUE
+SAM Radar 18,RGM-109C-2,TRUE
+SAM Radar 19,RGM-109C-2,TRUE
+SAM Radar 2,RGM-109C-2,FALSE
+SAM Radar 20,RGM-109C-2,TRUE
+SAM Radar 3,RGM-109C-2,FALSE
+SAM Radar 4,RGM-109C-2,FALSE
+SAM Radar 5,RGM-109C-2,FALSE
+SAM Radar 6,RGM-109C-2,FALSE
+SAM Radar 7,RGM-109C-2,TRUE
+SAM Radar 8,RGM-109C-2,TRUE
+SAM Radar 9,RGM-109C-2,TRUE
+Terrorist Training Camp 1,RGM-109C-2,FALSE
+Terrorist Training Camp 2,RGM-109C-2,FALSE
+Terrorist Training Camp 3,RGM-109C-2,TRUE
+Airfield 1,RGM-109C-3,FALSE
+Airfield 2,RGM-109C-3,TRUE
+Airfield 3,RGM-109C-3,TRUE
+Communications Tower 1,RGM-109C-3,FALSE
+Communications Tower 10,RGM-109C-3,TRUE
+Communications Tower 11,RGM-109C-3,TRUE
+Communications Tower 12,RGM-109C-3,TRUE
+Communications Tower 13,RGM-109C-3,TRUE
+Communications Tower 14,RGM-109C-3,TRUE
+Communications Tower 15,RGM-109C-3,TRUE
+Communications Tower 16,RGM-109C-3,TRUE
+Communications Tower 17,RGM-109C-3,TRUE
+Communications Tower 18,RGM-109C-3,TRUE
+Communications Tower 19,RGM-109C-3,TRUE
+Communications Tower 2,RGM-109C-3,FALSE
+Communications Tower 20,RGM-109C-3,TRUE
+Communications Tower 3,RGM-109C-3,FALSE
+Communications Tower 4,RGM-109C-3,FALSE
+Communications Tower 5,RGM-109C-3,TRUE
+Communications Tower 6,RGM-109C-3,TRUE
+Communications Tower 7,RGM-109C-3,TRUE
+Communications Tower 8,RGM-109C-3,TRUE
+Communications Tower 9,RGM-109C-3,TRUE
+Costal Defense Missile 1,RGM-109C-3,TRUE
+Costal Defense Missile 2,RGM-109C-3,TRUE
+Costal Defense Missile 3,RGM-109C-3,TRUE
+Costal Defense Missile 4,RGM-109C-3,TRUE
+Infantry Company 1,RGM-109C-3,FALSE
+Infantry Company 10,RGM-109C-3,TRUE
+Infantry Company 11,RGM-109C-3,TRUE
+Infantry Company 12,RGM-109C-3,TRUE
+Infantry Company 13,RGM-109C-3,TRUE
+Infantry Company 14,RGM-109C-3,TRUE
+Infantry Company 15,RGM-109C-3,TRUE
+Infantry Company 2,RGM-109C-3,FALSE
+Infantry Company 3,RGM-109C-3,FALSE
+Infantry Company 4,RGM-109C-3,FALSE
+Infantry Company 5,RGM-109C-3,FALSE
+Infantry Company 6,RGM-109C-3,TRUE
+Infantry Company 7,RGM-109C-3,TRUE
+Infantry Company 8,RGM-109C-3,TRUE
+Infantry Company 9,RGM-109C-3,TRUE
+MRBM 1,RGM-109C-3,FALSE
+MRBM 2,RGM-109C-3,FALSE
+MRBM 3,RGM-109C-3,FALSE
+MRBM 4,RGM-109C-3,TRUE
+MRBM 5,RGM-109C-3,TRUE
+Rocket Battery 1,RGM-109C-3,FALSE
+Rocket Battery 10,RGM-109C-3,TRUE
+Rocket Battery 2,RGM-109C-3,FALSE
+Rocket Battery 3,RGM-109C-3,FALSE
+Rocket Battery 4,RGM-109C-3,FALSE
+Rocket Battery 5,RGM-109C-3,TRUE
+Rocket Battery 6,RGM-109C-3,TRUE
+Rocket Battery 7,RGM-109C-3,TRUE
+Rocket Battery 8,RGM-109C-3,TRUE
+Rocket Battery 9,RGM-109C-3,FALSE
+SAM  1,RGM-109C-3,FALSE
+SAM  10,RGM-109C-3,TRUE
+SAM  11,RGM-109C-3,TRUE
+SAM  12,RGM-109C-3,TRUE
+SAM  13,RGM-109C-3,TRUE
+SAM  14,RGM-109C-3,TRUE
+SAM  15,RGM-109C-3,TRUE
+SAM  16,RGM-109C-3,TRUE
+SAM  17,RGM-109C-3,TRUE
+SAM  18,RGM-109C-3,TRUE
+SAM  19,RGM-109C-3,TRUE
+SAM  2,RGM-109C-3,FALSE
+SAM  20,RGM-109C-3,TRUE
+SAM  3,RGM-109C-3,FALSE
+SAM  4,RGM-109C-3,FALSE
+SAM  5,RGM-109C-3,FALSE
+SAM  6,RGM-109C-3,FALSE
+SAM  7,RGM-109C-3,TRUE
+SAM  8,RGM-109C-3,TRUE
+SAM  9,RGM-109C-3,TRUE
+SAM Radar 1,RGM-109C-3,FALSE
+SAM Radar 10,RGM-109C-3,TRUE
+SAM Radar 11,RGM-109C-3,TRUE
+SAM Radar 12,RGM-109C-3,TRUE
+SAM Radar 13,RGM-109C-3,TRUE
+SAM Radar 14,RGM-109C-3,TRUE
+SAM Radar 15,RGM-109C-3,TRUE
+SAM Radar 16,RGM-109C-3,TRUE
+SAM Radar 17,RGM-109C-3,TRUE
+SAM Radar 18,RGM-109C-3,TRUE
+SAM Radar 19,RGM-109C-3,TRUE
+SAM Radar 2,RGM-109C-3,FALSE
+SAM Radar 20,RGM-109C-3,TRUE
+SAM Radar 3,RGM-109C-3,FALSE
+SAM Radar 4,RGM-109C-3,FALSE
+SAM Radar 5,RGM-109C-3,FALSE
+SAM Radar 6,RGM-109C-3,FALSE
+SAM Radar 7,RGM-109C-3,TRUE
+SAM Radar 8,RGM-109C-3,TRUE
+SAM Radar 9,RGM-109C-3,TRUE
+Terrorist Training Camp 1,RGM-109C-3,FALSE
+Terrorist Training Camp 2,RGM-109C-3,FALSE
+Terrorist Training Camp 3,RGM-109C-3,TRUE

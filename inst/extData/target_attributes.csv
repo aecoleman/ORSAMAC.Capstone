@@ -1,0 +1,101 @@
+tgt.id,Latitude,Longitude,tgt.category,radius (m),length (m),width (m),nearest.afb (km),tgt.type
+Airfield 1,33.6098,-112.261,Light-Skinned Vehicle,,3030,200,890.4285525,area
+Airfield 2,35.4078,-97.4172,Light-Skinned Vehicle,,3383,100,747.9433713,area
+Airfield 3,32.4938,-93.5975,Light-Skinned Vehicle,,3658,100,496.900325,area
+Communications Tower 1,33.6864,-111.791,Communications Tower,56,100,100,852.9013926,point
+Communications Tower 10,36.1694,-95.7826,Communications Tower,56,100,100,725.4832593,point
+Communications Tower 11,39.0174,-94.7808,Communications Tower,56,100,100,823.7201356,point
+Communications Tower 12,38.7036,-90.3817,Communications Tower,56,100,100,588.8422252,point
+Communications Tower 13,32.875,-97.3112,Communications Tower,56,100,100,828.6484062,point
+Communications Tower 14,32.9865,-96.6902,Communications Tower,56,100,100,769.527632,point
+Communications Tower 15,32.3139,-95.2101,Communications Tower,56,100,100,633.1405448,point
+Communications Tower 16,32.3997,-93.8648,Communications Tower,56,100,100,518.3677232,point
+Communications Tower 17,29.4559,-98.393,Communications Tower,56,100,100,918.3761776,point
+Communications Tower 18,30.3003,-97.6918,Communications Tower,56,100,100,841.1933754,point
+Communications Tower 19,27.6687,-97.4406,Communications Tower,56,100,100,882.053555,point
+Communications Tower 2,32.3294,-110.894,Communications Tower,56,100,100,911.8365042,point
+Communications Tower 20,29.8322,-95.4088,Communications Tower,56,100,100,626.9688952,point
+Communications Tower 3,35.6943,-105.801,Communications Tower,56,100,100,359.4171123,point
+Communications Tower 4,35.2292,-106.709,Communications Tower,56,100,100,435.804206,point
+Communications Tower 5,31.8545,-106.101,Communications Tower,56,100,100,783.2848061,point
+Communications Tower 6,35.2177,-101.793,Communications Tower,56,100,100,475.1623062,point
+Communications Tower 7,31.7543,-102.151,Communications Tower,56,100,100,817.4329592,point
+Communications Tower 8,32.5272,-99.61,Communications Tower,56,100,100,835.6576867,point
+Communications Tower 9,35.5165,-97.5116,Communications Tower,56,100,100,734.2634509,point
+Costal Defense Missile 1,27.8816,-97.3054,Light-Skinned Vehicle,28,50,50,860.9509276,point
+Costal Defense Missile 2,28.4684,-96.6327,Light-Skinned Vehicle,28,50,50,776.9596023,point
+Costal Defense Missile 3,29.6849,-94.6434,Light-Skinned Vehicle,28,50,50,556.366995,point
+Costal Defense Missile 4,29.1124,-95.4305,Light-Skinned Vehicle,28,50,50,644.3844776,point
+Infantry Company 1,36.9323,-104.391,Personnel,282,500,500,210.0906623,area
+Infantry Company 10,32.5125,-96.8757,Personnel,282,500,500,789.3518316,area
+Infantry Company 11,29.5381,-95.2804,Personnel,282,500,500,619.8636693,area
+Infantry Company 12,27.9491,-97.5549,Personnel,282,500,500,881.2523519,area
+Infantry Company 13,30.1301,-97.773,Personnel,282,500,500,850.2006379,area
+Infantry Company 14,29.9847,-94.1484,Personnel,282,500,500,504.3192635,area
+Infantry Company 15,28.8007,-97.0044,Personnel,282,500,500,801.2960111,area
+Infantry Company 2,35.3365,-107.475,Personnel,282,500,500,457.5399534,area
+Infantry Company 3,35.9376,-106.595,Personnel,282,500,500,360.1628727,area
+Infantry Company 4,36.3527,-105.579,Personnel,282,500,500,283.5336022,area
+Infantry Company 5,37.4761,-105.135,Personnel,282,500,500,152.6535133,area
+Infantry Company 6,32.6787,-93.6353,Personnel,282,500,500,494.9554289,area
+Infantry Company 7,32.4191,-94.8297,Personnel,282,500,500,603.1669586,area
+Infantry Company 8,33.3953,-94.165,Personnel,282,500,500,531.0142046,area
+Infantry Company 9,33.063,-96.0448,Personnel,282,500,500,708.7616152,area
+MRBM 1,33.8408,-110.617,Light-Skinned Vehicle,28,50,50,764.9645214,point
+MRBM 2,32.613,-108.943,Light-Skinned Vehicle,28,50,50,787.7186727,point
+MRBM 3,32.0692,-106.745,Light-Skinned Vehicle,28,50,50,771.5641466,point
+MRBM 4,37.2908,-100.084,Light-Skinned Vehicle,28,50,50,437.8958466,point
+MRBM 5,33.7268,-99.076,Light-Skinned Vehicle,28,50,50,756.8017393,point
+Rocket Battery 1,36.5029,-106.881,Light-Skinned Vehicle,564,1000,1000,319.9917557,area
+Rocket Battery 10,32.4871,-92.78,Light-Skinned Vehicle,564,1000,1000,424.004341,area
+Rocket Battery 2,36.6675,-106.022,Light-Skinned Vehicle,564,1000,1000,264.6266535,area
+Rocket Battery 3,36.8321,-104.606,Light-Skinned Vehicle,564,1000,1000,219.6233025,area
+Rocket Battery 4,38.4837,-101.693,Light-Skinned Vehicle,564,1000,1000,263.6494732,area
+Rocket Battery 5,34.5421,-92.4066,Light-Skinned Vehicle,564,1000,1000,378.2909608,area
+Rocket Battery 6,31.3824,-93.4106,Light-Skinned Vehicle,564,1000,1000,441.4959955,area
+Rocket Battery 7,29.2269,-98.4932,Light-Skinned Vehicle,564,1000,1000,932.2570365,area
+Rocket Battery 8,30.4291,-96.418,Light-Skinned Vehicle,564,1000,1000,718.4886059,area
+Rocket Battery 9,35.4367,-105.536,Light-Skinned Vehicle,564,1000,1000,381.8696832,area
+SAM  1,33.2857,-111.843,SAM Launcher,28,50,50,887.7375005,point
+SAM  10,38.9316,-94.3801,SAM Launcher,28,50,50,792.5736234,point
+SAM  11,38.3162,-90.5732,SAM Launcher,28,50,50,553.690558,point
+SAM  12,35.1327,-97.722,SAM Launcher,28,50,50,742.0811165,point
+SAM  13,32.3983,-99.8103,SAM Launcher,28,50,50,838.1947424,point
+SAM  14,33.0392,-97.0209,SAM Launcher,28,50,50,799.3448278,point
+SAM  15,32.5388,-97.4106,SAM Launcher,28,50,50,838.616439,point
+SAM  16,32.6038,-96.5893,SAM Launcher,28,50,50,766.2899786,point
+SAM  17,32.6573,-93.8792,SAM Launcher,28,50,50,517.6932292,point
+SAM  18,30.2001,-94.3142,SAM Launcher,28,50,50,517.9792309,point
+SAM  19,28.2394,-97.978,SAM Launcher,28,50,50,910.0928407,point
+SAM  2,35.2864,-107.11,SAM Launcher,28,50,50,445.8957261,point
+SAM  20,29.6419,-96.5468,SAM Launcher,28,50,50,738.7242061,point
+SAM  3,34.8499,-106.931,SAM Launcher,28,50,50,482.5441389,point
+SAM  4,34.6898,-106.256,SAM Launcher,28,50,50,478.1707082,point
+SAM  5,35.129,-106.137,SAM Launcher,28,50,50,428.2715708,point
+SAM  6,35.4871,-105.252,SAM Launcher,28,50,50,372.2399965,point
+SAM  7,35.4324,-102.094,SAM Launcher,28,50,50,440.5454475,point
+SAM  8,33.4288,-102.037,SAM Launcher,28,50,50,643.9085348,point
+SAM  9,37.5433,-97.5429,SAM Launcher,28,50,50,641.0674914,point
+SAM Radar 1,33.2857,-111.843,SAM Radar,28,50,50,887.7375005,point
+SAM Radar 10,38.9316,-94.3801,SAM Radar,28,50,50,792.5736234,point
+SAM Radar 11,38.3162,-90.5732,SAM Radar,28,50,50,553.690558,point
+SAM Radar 12,35.1327,-97.722,SAM Radar,28,50,50,742.0811165,point
+SAM Radar 13,32.3983,-99.8103,SAM Radar,28,50,50,838.1947424,point
+SAM Radar 14,33.0392,-97.0209,SAM Radar,28,50,50,799.3448278,point
+SAM Radar 15,32.5388,-97.4106,SAM Radar,28,50,50,838.616439,point
+SAM Radar 16,32.6038,-96.5893,SAM Radar,28,50,50,766.2899786,point
+SAM Radar 17,32.6573,-93.8792,SAM Radar,28,50,50,517.6932292,point
+SAM Radar 18,30.2001,-94.3142,SAM Radar,28,50,50,517.9792309,point
+SAM Radar 19,28.2394,-97.978,SAM Radar,28,50,50,910.0928407,point
+SAM Radar 2,35.2864,-107.11,SAM Radar,28,50,50,445.8957261,point
+SAM Radar 20,29.6419,-96.5468,SAM Radar,28,50,50,738.7242061,point
+SAM Radar 3,34.8499,-106.931,SAM Radar,28,50,50,482.5441389,point
+SAM Radar 4,34.6898,-106.256,SAM Radar,28,50,50,478.1707082,point
+SAM Radar 5,35.129,-106.137,SAM Radar,28,50,50,428.2715708,point
+SAM Radar 6,35.4871,-105.252,SAM Radar,28,50,50,372.2399965,point
+SAM Radar 7,35.4324,-102.094,SAM Radar,28,50,50,440.5454475,point
+SAM Radar 8,33.4288,-102.037,SAM Radar,28,50,50,643.9085348,point
+SAM Radar 9,37.5433,-97.5429,SAM Radar,28,50,50,641.0674914,point
+Terrorist Training Camp 1,33.9869,-112.65,Large Training Camp,1382,3000,2000,890.09254,area
+Terrorist Training Camp 2,32.7705,-106.96,Small Training Camp,846,1500,1500,701.2801657,area
+Terrorist Training Camp 3,30.0369,-103.182,Small Training Camp,846,1500,1500,984.9124922,area
