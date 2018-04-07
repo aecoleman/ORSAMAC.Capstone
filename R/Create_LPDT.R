@@ -36,7 +36,12 @@ CreateLPDT <- function(db){
   decision.var[ is.na(`range (km)`), `range (km)` := 0]
 
   decision.var[, 'af.risk' := ifelse( weapon.sys == 'F-15E',
-                                      pmax(0, `nearest.afb (km)` - `range (km)` ),
+                                      pmax(0, (`nearest.afb (km)` - `range (km)`)/2 ),
+                                      0 ) ]
+
+
+  decision.var[, 'af.risk' := ifelse( mun.id == 'GBU-39',
+                                      pmax(0, (`nearest.afb (km)` - `range (km)`)/8 ),
                                       0 ) ]
 
   decision.var <- decision.var[!is.na(tgt.id)]

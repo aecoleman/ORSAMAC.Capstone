@@ -23,13 +23,29 @@ Phase3.InitializeData <- function(){
     fread( system.file( 'extData/target.category-munition_effectiveness.csv',
                         package = 'ORSAMAC.Capstone') )
 
-  return(
-    list( 'mun.attr' = mun.attr,
-          'tgt.attr' = tgt.attr,
-          'tgt.mun.feas' = tgt.mun.feas,
-          'tgt.mun.eff' = tgt.mun.eff
-          )
-    )
+
+  db <- list( 'mun.attr' = mun.attr,
+              'tgt.attr' = tgt.attr,
+              'tgt.mun.feas' = tgt.mun.feas,
+              'tgt.mun.eff' = tgt.mun.eff)
+
+  setkeyv( db$mun.attr, c('weapon.sys', 'mun.id') )
+
+  setkeyv( db$tgt.attr, c('tgt.id', 'tgt.category', 'tgt.type') )
+
+  setkeyv( db$tgt.mun.feas, c('tgt.id', 'mun.id', 'feasible') )
+
+  tgt.pop.density <- GetTargetPopDensity()
+
+  tgt.pop.density[,tgt.id := gsub('^MRMB (.*)$', 'MRBM \\1', tgt.id)]
+
+  tgt.pop.density[is.na(DENSITY), DENSITY := 0]
+
+  db$tgt.attr <- db$tgt.attr[tgt.pop.density[,.(tgt.id, DENSITY) ], on = 'tgt.id' ]
+
+  rm( tgt.pop.density )
+
+  return( db )
 
 }
 

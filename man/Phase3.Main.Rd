@@ -4,8 +4,28 @@
 \alias{Phase3.Main}
 \title{Phase 3 Main}
 \usage{
-Phase3.Main(opRisk.wt, colDmg.wt, cost.wt, probDestructRequired = 0.3)
+Phase3.Main(opRisk.wt, colDmg.wt, cost.wt, opRisk.const = Inf,
+  colDmg.const = Inf, cost.const = Inf, probDestructRequired = 0.3)
+}
+\arguments{
+\item{opRisk.wt}{numeric, the weight given to operational risk. To not consider operational risk, use opRisk.wt = 0.}
+
+\item{colDmg.wt}{numeric, the weight given to collateral damage. To not consider collateral damage, use colDmg.wt = 0.}
+
+\item{cost.wt}{numeric, the weight given to cost. To not consider cost, use cost.wt = 0.}
+
+\item{opRisk.const}{numeric, the constraint for operational risk objective value, in sortie-kilometers. If not supplied, assumed to be unconstrained.}
+
+\item{colDmg.const}{numeric, the constraint for collateral damage objective value, in number of expected civilian casualties. If not supplied, assumed to be unconstrained.}
+
+\item{cost.const}{numeric, the constraint for cost objective value, in thousande of dollars. If not supplied, assumed to be unconstrained.}
+
+\item{probDestructRequired}{numeric, the proportion of an area target that must be destroyed before that target is considered inoperable. Note: Airfield targets will always have a 100% required destruction.}
+}
+\value{
+list with the optimal solution, the raw output from the rglpk, and the objective function values for each of the three objectives.
 }
 \description{
-Phase 3 Main
+Computes the LP-optimal solution to the munition-target pairing problem for
+phase 3, and reports results.
 }

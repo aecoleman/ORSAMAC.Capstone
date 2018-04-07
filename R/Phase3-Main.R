@@ -1,27 +1,22 @@
 #' Phase 3 Main
 #'
-#' @return
+#' Computes the LP-optimal solution to the munition-target pairing problem for
+#' phase 3, and reports results.
+#'
+#' @param opRisk.wt numeric, the weight given to operational risk. To not consider operational risk, use opRisk.wt = 0.
+#' @param colDmg.wt numeric, the weight given to collateral damage. To not consider collateral damage, use colDmg.wt = 0.
+#' @param cost.wt numeric, the weight given to cost. To not consider cost, use cost.wt = 0.
+#' @param opRisk.const numeric, the constraint for operational risk objective value, in sortie-kilometers. If not supplied, assumed to be unconstrained.
+#' @param colDmg.const numeric, the constraint for collateral damage objective value, in number of expected civilian casualties. If not supplied, assumed to be unconstrained.
+#' @param cost.const numeric, the constraint for cost objective value, in thousande of dollars. If not supplied, assumed to be unconstrained.
+#'@param probDestructRequired numeric, the proportion of an area target that must be destroyed before that target is considered inoperable. Note: Airfield targets will always have a 100% required destruction.
+#'
+#' @return list with the optimal solution, the raw output from the rglpk, and the objective function values for each of the three objectives.
 #' @export
 #'
-Phase3.Main <- function(opRisk.wt, colDmg.wt, cost.wt, probDestructRequired = 0.3){
+Phase3.Main <- function(opRisk.wt, colDmg.wt, cost.wt, opRisk.const = Inf, colDmg.const = Inf, cost.const = Inf, probDestructRequired = 0.3){
 
   db <- Phase3.InitializeData()
-
-  setkeyv( db$mun.attr, c('weapon.sys', 'mun.id') )
-
-  setkeyv( db$tgt.attr, c('tgt.id', 'tgt.category', 'tgt.type') )
-
-  setkeyv( db$tgt.mun.feas, c('tgt.id', 'mun.id', 'feasible') )
-
-  tgt.pop.density <- GetTargetPopDensity()
-
-  tgt.pop.density[,tgt.id := gsub('^MRMB (.*)$', 'MRBM \\1', tgt.id)]
-
-  tgt.pop.density[is.na(DENSITY), DENSITY := 0]
-
-  db$tgt.attr <- db$tgt.attr[tgt.pop.density[,.(tgt.id, DENSITY) ], on = 'tgt.id' ]
-
-  rm( tgt.pop.density )
 
   ## Set up decision variable data.table...
   ## written for speed rather than readability right now.
@@ -146,7 +141,23 @@ Phase3.Main <- function(opRisk.wt, colDmg.wt, cost.wt, probDestructRequired = 0.
 
   }
 
+  if( opRisk.const < Inf ){
 
+    constraint.var[, 'maxOpRisk' := c(opRisk.const, -1, obj.fun.opRisk) ]
+
+  }
+
+  if( colDmg.const < Inf ){
+
+    constraint.var[, 'maxColDmg' := c(colDmg.const, -1, obj.fun.colDmg) ]
+
+  }
+
+  if( cost.const < Inf ){
+
+    constraint.var[, 'maxCost' := c(cost.const, -1, obj.fun.cost) ]
+
+  }
 
   const.mat <- as.matrix(constraint.var[3:nrow(constraint.var), j = -1])
 
@@ -154,29 +165,30 @@ Phase3.Main <- function(opRisk.wt, colDmg.wt, cost.wt, probDestructRequired = 0.
 
   const.rhs <- unlist(c(constraint.var[variable == 'RHS',-1], use.names = FALSE ) )
 
-  # lp(direction = 'min',
-  #    objective.in = obj.fun,
-  #    const.mat = const.mat,
-  #    const.dir = const.dir,
-  #    const.rhs = const.rhs,
-  #    binary.vec = c(674, 675),
-  #    transpose.constraints = FALSE)
-
   lpSolution <-
     Rglpk::Rglpk_solve_LP(obj = obj.fun,
                           mat = t(const.mat),
                           dir = const.dir,
                           rhs = const.rhs,
-                          types = c( rep('C',673),'B','B'),
+                          types = c( rep('C',nrow(decision.var) ),'B','B'),
                           verbose = TRUE)
 
-  decision.var[,'lp.soln' := lpSolution$solution[1:673] ]
+  decision.var[,'lp.soln' := lpSolution$solution[1:(length(lpSolution$solution)-2)] ]
+
+  if( 'MGM-168' %in% decision.var[ lp.soln > 0, mun.id] ){
+    cat('ATACMS IV-A is used in optimal solution\n')
+  } else if( 'ZMGM-168B' %in% decision.var[ lp.soln > 0, mun.id]){
+    cat('ATACMS IV-Z is used in optimal solution\n')
+  } else {
+    cat('No ATACMS used in optimal solution\n')
+  }
 
   out <- list( 'mun.used' = decision.var[ lp.soln > 0, .(tgt.id, mun.id, lp.soln)],
-               'lp' = lpSolution,
+               'platforms' = decision.var[,.('targets' = sum(lp.soln > 0), 'munitions' = sum(lp.soln)), by = 'weapon.sys'],
                'obj' = lpSolution$solution * obj.fun,
                'obj.risk' = sum(lpSolution$solution * obj.fun.opRisk),
                'obj.colDmg' = sum(lpSolution$solution * obj.fun.colDmg),
-               'obj.cost' = sum(lpSolution$solution * obj.fun.cost) )
+               'obj.cost' = sum(lpSolution$solution * obj.fun.cost),
+               'lp' = lpSolution)
 
 }
