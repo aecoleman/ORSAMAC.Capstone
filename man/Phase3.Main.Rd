@@ -5,7 +5,8 @@
 \title{Phase 3 Main}
 \usage{
 Phase3.Main(opRisk.wt, colDmg.wt, cost.wt, opRisk.const = Inf,
-  colDmg.const = Inf, cost.const = Inf, probDestructRequired = 0.3)
+  colDmg.const = Inf, cost.const = Inf, unitDestructRequired = 0.3,
+  campDestructRequired = 0.05)
 }
 \arguments{
 \item{opRisk.wt}{numeric, the weight given to operational risk. To not consider operational risk, use opRisk.wt = 0.}

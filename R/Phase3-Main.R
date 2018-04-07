@@ -14,7 +14,7 @@
 #' @return list with the optimal solution, the raw output from the rglpk, and the objective function values for each of the three objectives.
 #' @export
 #'
-Phase3.Main <- function(opRisk.wt, colDmg.wt, cost.wt, opRisk.const = Inf, colDmg.const = Inf, cost.const = Inf, probDestructRequired = 0.3){
+Phase3.Main <- function(opRisk.wt, colDmg.wt, cost.wt, opRisk.const = Inf, colDmg.const = Inf, cost.const = Inf, unitDestructRequired = 0.3, campDestructRequired = 0.05){
 
   db <- Phase3.InitializeData()
 
@@ -83,7 +83,10 @@ Phase3.Main <- function(opRisk.wt, colDmg.wt, cost.wt, opRisk.const = Inf, colDm
                `:=`('mun.wide' = `width (m)` / (sqrt(2) * `MER (m)`), 'mun.long' = `length (m)` / (sqrt(2) * `MER (m)`) ) ]
 
   decision.var[tgt.type == 'area',
-               `:=`('est.mun.rqmt' = ceiling( probDestructRequired * pmax(1, mun.wide) * pmax(1, mun.long) / reliability) ) ]
+               `:=`('est.mun.rqmt' = ceiling( unitDestructRequired * pmax(1, mun.wide) * pmax(1, mun.long) / reliability) ) ]
+
+  decision.var[grepl('Training Camp', tgt.id) & tgt.type == 'area',
+               `:=`('est.mun.rqmt' = ceiling( campDestructRequired * pmax(1, mun.wide) * pmax(1, mun.long) / reliability) ) ]
 
   ## To get numbers for the estimated munitions to disable aircraft at airfields
 
