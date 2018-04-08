@@ -1,3 +1,10 @@
+#' Output Looker
+#'
+#' Generates output for a couple of options using successive goal optimization.
+#'
+#' @return list of lists
+#' @export
+#'
 OutputLooker <- function(){
 
   out1 <- Phase3.Main(opRisk.wt = 1,
@@ -30,14 +37,7 @@ OutputLooker <- function(){
                        opRisk.const = out2.1$obj.risk,
                        colDmg.const = out2$obj.colDmg)
 
-
-
-  outputAnalysis <-
-    data.table( 'optimized' = c('risk-collateral-cost', 'collateral-risk-cost'),
-                'decision' = c(out1.1.1$decision, out2.1.1$decision),
-                'risk' = c(out1.1.1$obj.risk, out2.1.1$obj.risk),
-                'collateral' = c(out1.1.1$obj.colDmg, out2.1.1$obj.colDmg),
-                'cost' = c(out1.1.1$obj.cost, out2.1.1$obj.cost) )
+  outputAnalysis <- list( out1.1.1, out2.1.1 )
 
   return( outputAnalysis)
 

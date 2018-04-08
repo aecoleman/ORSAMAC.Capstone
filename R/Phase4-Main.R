@@ -55,7 +55,7 @@ Phase4.Main <- function(){
                 'ordnance' = 8)
 
   attr.MLRS <-
-    data.table( 'speed.kmph' = 3704)
+    data.table( 'speed.kmph' = 3704 )
 
   prb.glimpse <- 0.9784
 

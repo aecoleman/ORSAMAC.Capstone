@@ -3,6 +3,7 @@
 export(CreateLPDT)
 export(GenerateTSTs)
 export(GetTargetPopDensity)
+export(OutputLooker)
 export(Phase3.InitializeData)
 export(Phase3.Main)
 export(pKB)

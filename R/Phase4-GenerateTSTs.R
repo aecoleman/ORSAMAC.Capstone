@@ -194,6 +194,13 @@ GenerateTSTs <- function(){
 
   targets[, 'TIME' := eventTimes[sample(1L:100L, replace = FALSE)] ]
 
+  targets[type == 'Technical',
+          'tgt.category' := 'Light-Skinned Vehicle']
+  targets[type == 'High-Payoff Target' & stationary == FALSE,
+          'tgt.category' := 'Light-Skinned Vehicle' ]
+
+
+
   return( targets )
 
 }

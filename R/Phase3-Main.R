@@ -187,12 +187,14 @@ Phase3.Main <- function(opRisk.wt, colDmg.wt, cost.wt, opRisk.const = Inf, colDm
   }
 
   out <- list( 'decision' = decision,
-               'mun.used' = decision.var[ lp.soln > 0, .(tgt.id, mun.id, lp.soln)],
+               'mun.used' = decision.var[ lp.soln > 0, .(tgt.id, Latitude, Longitude, weapon.sys, mun.id, lp.soln)],
                'platforms' = decision.var[,.('targets' = sum(lp.soln > 0), 'munitions' = sum(lp.soln)), by = 'weapon.sys'],
                'obj' = lpSolution$solution * obj.fun,
                'obj.risk' = sum(lpSolution$solution * obj.fun.opRisk),
                'obj.colDmg' = sum(lpSolution$solution * obj.fun.colDmg),
                'obj.cost' = sum(lpSolution$solution * obj.fun.cost),
                'lp' = lpSolution)
+
+  return( out )
 
 }
