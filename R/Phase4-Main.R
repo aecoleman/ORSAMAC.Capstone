@@ -4,11 +4,9 @@ Phase4.Main <- function(){
 
   ## Initialize Variables ########################################################
 
-  totalTargets <- 10
+  targetSets <- 30
 
-  targetSets <- 20
-
-  numReplications <- 25
+  numReplications <- 30
 
   ## Define Needed Functions #####################################################
 
@@ -53,7 +51,11 @@ Phase4.Main <- function(){
                 'reliability.flight' = 0.95,
                 'range.km' = 3840,
                 'speed.kmph' = 3017.52,
+                'speed.alt' = 944.52,
                 'ordnance' = 8)
+
+  attr.MLRS <-
+    data.table( 'speed.kmph' = 3704)
 
   prb.glimpse <- 0.9784
 
