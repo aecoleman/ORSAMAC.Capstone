@@ -24,7 +24,7 @@ Phase3.Main(opRisk.wt, colDmg.wt, cost.wt, opRisk.const = Inf,
 \item{probDestructRequired}{numeric, the proportion of an area target that must be destroyed before that target is considered inoperable. Note: Airfield targets will always have a 100% required destruction.}
 }
 \value{
-list with the optimal solution, the raw output from the rglpk, and the objective function values for each of the three objectives.
+list with the decision, the optimal solution for munition-target pairing, the targets per platform, the objective function values for each of the three objectives, and the raw output from the rglpk.
 }
 \description{
 Computes the LP-optimal solution to the munition-target pairing problem for

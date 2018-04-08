@@ -11,7 +11,7 @@
 #' @param cost.const numeric, the constraint for cost objective value, in thousande of dollars. If not supplied, assumed to be unconstrained.
 #'@param probDestructRequired numeric, the proportion of an area target that must be destroyed before that target is considered inoperable. Note: Airfield targets will always have a 100% required destruction.
 #'
-#' @return list with the optimal solution, the raw output from the rglpk, and the objective function values for each of the three objectives.
+#' @return list with the decision, the optimal solution for munition-target pairing, the targets per platform, the objective function values for each of the three objectives, and the raw output from the rglpk.
 #' @export
 #'
 Phase3.Main <- function(opRisk.wt, colDmg.wt, cost.wt, opRisk.const = Inf, colDmg.const = Inf, cost.const = Inf, unitDestructRequired = 0.3, campDestructRequired = 0.05){
@@ -179,14 +179,15 @@ Phase3.Main <- function(opRisk.wt, colDmg.wt, cost.wt, opRisk.const = Inf, colDm
   decision.var[,'lp.soln' := lpSolution$solution[1:(length(lpSolution$solution)-2)] ]
 
   if( 'MGM-168' %in% decision.var[ lp.soln > 0, mun.id] ){
-    cat('ATACMS IV-A is used in optimal solution\n')
+    decision <- 'ATACMS IV-A is used in optimal solution'
   } else if( 'ZMGM-168B' %in% decision.var[ lp.soln > 0, mun.id]){
-    cat('ATACMS IV-Z is used in optimal solution\n')
+    decision <- 'ATACMS IV-Z is used in optimal solution'
   } else {
-    cat('No ATACMS used in optimal solution\n')
+    decision <- 'No ATACMS used in optimal solution'
   }
 
-  out <- list( 'mun.used' = decision.var[ lp.soln > 0, .(tgt.id, mun.id, lp.soln)],
+  out <- list( 'decision' = decision,
+               'mun.used' = decision.var[ lp.soln > 0, .(tgt.id, mun.id, lp.soln)],
                'platforms' = decision.var[,.('targets' = sum(lp.soln > 0), 'munitions' = sum(lp.soln)), by = 'weapon.sys'],
                'obj' = lpSolution$solution * obj.fun,
                'obj.risk' = sum(lpSolution$solution * obj.fun.opRisk),
